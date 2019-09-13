@@ -1,0 +1,132 @@
+@import url('global1.css');
+
+/* Formulaire */
+
+article
+{
+    position: absolute;
+    top: 10vw;
+    left: 22vw;
+    right: 22vw;
+}
+
+textarea
+{
+    height: 15vw;
+}
+
+label
+{
+    font-size: 1.6vw;
+    font-family: 'NexaPerso', sans-serif;
+}
+
+input[type=text], input[type=email], textarea
+{
+    width: 100%;
+    padding: 0.8vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    resize: vertical;
+    font-size: 0.9vw;
+    font-family: 'InterUI', sans-serif;
+}
+
+input[type=submit]
+{
+    background-color: #3d59a8;
+    color: white;
+    padding: 0.6vw 1.5vw;
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'NexaPerso', sans-serif;
+    font-size: 1.4vw;
+    transition: 300ms;
+}
+
+input[type=submit]:hover
+{
+    background-color: #000000;
+}
+
+input,textarea
+{
+    color: #3d59a8;
+}
+
+input:focus, textarea:focus
+{
+    outline: none;
+}
+
+.captcha
+{
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1300px)
+{
+    article
+    {
+        top: 15vw;
+        left: 10vw;
+        right: 10vw;
+    }
+
+    textarea
+    {
+        height: 20vw;
+    }
+
+    label
+    {
+        font-size: 2vw;
+    }
+
+    input[type=text], input[type=email], textarea
+    {
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+    }
+
+    input[type=submit]
+    {
+        font-size: 2vw;
+    }
+} /* Fin de query */
+
+@media screen and (max-width: 800px)
+{
+    article
+    {
+        top: 35vw;
+        left: 5vw;
+        right: 5vw;
+    }
+
+    textarea
+    {
+        height: 29vw;
+    }
+
+    label
+    {
+        font-size: 4vw;
+    }
+
+    input[type=text], input[type=email], textarea
+    {
+        margin-bottom: 2vw;
+        font-size: 2vw;
+    }
+
+    input[type=submit]
+    {
+        font-size: 3vw;
+    }
+}  /* Fin de query */

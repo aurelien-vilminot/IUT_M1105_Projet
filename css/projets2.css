@@ -1,0 +1,141 @@
+@import url('global2.css');
+
+.presentation
+{
+    display: flex;
+    justify-content: space-around;
+    height: 4vw;
+    margin: 2vw 1vw 2vw 1vw;
+}
+
+.presentation p
+{
+    border-bottom: 0.5vw solid  #3d59a8;
+}
+
+.projets
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    margin: 2vw 1vw 2vw 1vw;
+}
+
+.projets_reverse
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 25vw;
+    margin: 2vw 1vw 2vw 1vw;
+}
+
+.Logo_titre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+}
+
+.Logo_titre p
+{
+    text-align: center;
+    font-family: 'NexaPerso', sans-serif;
+}
+
+.Logo_titre_reverse
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+}
+
+.Logo_titre_reverse p
+{
+    text-align: center;
+    font-family: 'NexaPerso', sans-serif;
+}
+
+.Logo_titre img , .Logo_titre_reverse img
+{
+    width: 5vw;
+    transition: 0.4s;
+}
+
+.Logo_titre img:hover , .Logo_titre_reverse img:hover
+{
+    transform: scale(1.1);
+}
+
+.TPE_text, .ISN_text
+{
+    border-left: #3d59a8 0.5vw solid;
+    padding-left: 1vw;
+}
+
+.PPE_text
+{
+    border-right: #3d59a8 0.5vw solid;
+    padding-right: 1vw;
+}
+
+.ancre
+{
+    display: none;
+    transition: 500ms;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .presentation
+    {
+        font-size: 2.5vw;
+    }
+
+    .projets, .projets_reverse
+    {
+        flex-direction: column;
+        height: 75vw;
+        margin: 0 7vw 0 7vw;
+    }
+
+    .Logo_titre p, .Logo_titre_reverse p
+    {
+        font-size: 3.5vw;
+    }
+
+    .PPE_text
+    {
+        border-right: none;
+        padding-right: initial;
+        border-left: #3d59a8 0.5vw solid;
+        padding-left: 1vw;
+    }
+
+    .Logo_titre img , .Logo_titre_reverse img
+    {
+        width: 7vw;
+    }
+
+    .Logo_titre img:hover , .Logo_titre_reverse img:hover
+    {
+        transform: scale(1.2);
+    }
+
+    .ancre
+    {
+        display: initial;
+    }
+
+    .div_ancre
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+} /* Fin de query */

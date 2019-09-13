@@ -1,0 +1,90 @@
+@font-face
+{
+    font-family: NexaPerso;
+    src: url(../fonts/Nexa_Bold.ttf);
+}
+
+body
+{
+    font-family: 'NexaPerso', sans-serif;
+    margin:0;
+    padding:0;
+    background: url(../media/back.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+section
+{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.popup
+{
+    margin: 7vw auto;
+    padding: 2vw;
+    background: #fff;
+    border-radius: 5px;
+    width: 30vw;
+    position: relative;
+}
+
+.popup h2
+{
+    margin-top: 0;
+    color: #333;
+    font-size: 2vw;
+}
+.popup .close
+{
+    position: absolute;
+    top: 1.3vw;
+    right: 3vw;
+    transition: all 500ms;
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover
+{
+    color: #3d59a8;
+}
+.popup .content
+{
+    font-size: 1.2vw;
+    font-family: 'InterUI', sans-serif;
+}
+
+@media  screen and (max-width: 900px)
+{
+    .popup
+    {
+        padding: 2vw;
+        width: 55vw;
+        position: relative;
+        margin-top: 20vw;
+    }
+
+    .popup h2
+    {
+        font-size: 4vw;
+    }
+
+    .popup .close
+    {
+        top: 1.8vw;
+        right: 3vw;
+        font-size: 5vw;
+    }
+
+    .popup .content
+    {
+        font-size: 2.2vw;
+    }
+} /* Fin de query */

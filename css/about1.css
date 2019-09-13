@@ -1,0 +1,305 @@
+@import url('global1.css');
+
+.date
+{
+    position: absolute;
+    top: 11vw;
+    left: 29vw;
+    font-size: 2vw;
+    border-top: 0.2vw solid #3d59a8;
+    border-bottom: 0.2vw solid #3d59a8;
+    text-align: center;
+}
+
+.titre
+{
+    font-family: 'NexaPerso', sans-serif;
+    font-size: 2.6vw;
+    padding-left: 1.5vw;
+    border-left: 0.5vw solid #3d59a8;
+    position: absolute;
+    top: 16vw;
+    left: 2vw;
+}
+
+.logo_html
+{
+    width: 10vw;
+    position: absolute;
+    top: 24vw;
+    left: 10vw;
+}
+
+.logo_css
+{
+    width: 7.1vw;
+    position: absolute;
+    top: 24vw;
+    left: 30vw;
+}
+
+.logo_php
+{
+    width: 16vw;
+    position: absolute;
+    top: 25vw;
+    left: 49vw;
+}
+
+.logo_java
+{
+    width: 13vw;
+    position: absolute;
+    top: 22vw;
+    left: 75vw;
+}
+
+.logo_html, .logo_css, .logo_php, .logo_java
+{
+    padding-bottom: 1vw;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.logo_html:hover, .logo_css:hover, .logo_php:hover, .logo_java:hover
+{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+}
+
+/* Popup */
+.overlay
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target
+{
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.popup
+{
+    margin: 9vw auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+}
+
+.popup h2
+{
+    margin-top: 0;
+    color: #3d59a8;
+}
+
+.popup .close
+{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover
+{
+    color: #3d59a8;
+}
+
+.popup .content
+{
+    max-height: 30%;
+    font-size: 1vw;
+    padding: 0;
+    overflow: auto;
+} /* Fin de popup */
+
+.titre2
+{
+    font-family: 'NexaPerso', sans-serif;
+    font-size: 2.6vw;
+    padding-left: 1.5vw;
+    border-left: 0.5vw solid #3d59a8;
+    position: absolute;
+    top: 38vw;
+    left: 2vw;
+}
+
+.boutton
+{
+    position: absolute;
+    top: 47vw;
+    left: 27vw;
+    background-color: #3d59a8;
+    color: white;
+    padding: 0.6vw 1.5vw;
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 4vw;
+    cursor: pointer;
+    font-family: 'NexaPerso', sans-serif;
+    font-size: 1.4vw;
+    transition: 300ms;
+}
+
+.boutton:hover
+{
+    background: #000000;
+}
+
+.boutton:focus
+{
+    outline: none;
+}
+
+footer
+{
+    border-left: 0.5vw solid #3d59a8;
+    padding-left: 1vw;
+    margin-bottom: 0.5vw;
+    position: absolute;
+    top: 58vw;
+    right: 15vw;
+}
+
+.valid_html
+{
+    width: 7vw;
+    position: absolute;
+    top: 0.6vw;
+    left: 20vw;
+}
+
+.valid_css
+{
+    width: 7vw;
+    position: absolute;
+    top: 0.6vw;
+    left: 27vw;
+}
+
+.sign
+{
+    border-right: 0.2vw solid #000000;
+    padding-right: 0.7vw;
+    font-size: 1.3vw;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px)
+{
+    .date
+    {
+        top: 35vw;
+        left: 16vw;
+        right: 16vw;
+        font-size: 3vw;
+    }
+
+    .titre
+    {
+        font-size: 3.6vw;
+        top: 43vw;
+    }
+
+    .logo_html
+    {
+        width: 24vw;
+        top: 55vw;
+        left: 17vw;
+    }
+
+    .logo_css
+    {
+        width: 17vw;
+        top: 55vw;
+        left: 65vw;
+    }
+
+    .logo_php
+    {
+        width: 26vw;
+        top: 89vw;
+        left: 17vw;
+    }
+
+    .logo_java
+    {
+        width: 23vw;
+        top: 85vw;
+        left: 65vw;
+    }
+
+
+    .popup
+    {
+        margin: 9vw auto;
+        width: 80vw;
+    }
+
+    .popup h2
+    {
+        font-size: 3.5vw;
+    }
+
+    .popup .content
+    {
+        font-size: 3vw;
+    }
+
+    .titre2
+    {
+        font-size: 3.6vw;
+        top: 110vw;
+        left: 2vw;
+    }
+
+    .boutton
+    {
+        top: 121vw;
+        left: 27vw;
+        font-size: 2.5vw;
+    }
+
+    footer
+    {
+        margin-bottom: 0.5vw;
+        top: 132vw;
+        right: 27vw;
+    }
+
+    .valid_html
+    {
+        width: 13vw;
+        top: 0.6vw;
+        left: 29vw;
+    }
+
+    .valid_css
+    {
+        width: 13vw;
+        top: 0.6vw;
+        left: 41vw;
+    }
+
+    .sign
+    {
+        font-size: 2vw;
+    }
+} /* Fin de queries */

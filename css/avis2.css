@@ -1,0 +1,83 @@
+@import url('global2.css');
+
+article
+{
+    margin: 2vw 5vw 1vw 5vw;
+}
+
+textarea
+{
+    height: 15vw;
+}
+
+label
+{
+    font-family: 'NexaPerso', sans-serif;
+}
+
+input[type=text], input[type=email], textarea
+{
+    width: 100%;
+    padding: 0.8vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    resize: vertical;
+    font-size: 0.9vw;
+    font-family: 'InterUI', sans-serif;
+}
+
+input[type=submit]
+{
+    background-color: #3d59a8;
+    color: white;
+    padding: 0.6vw 1.5vw;
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'NexaPerso', sans-serif;
+    font-size: 1.4vw;
+    transition: 300ms;
+}
+
+input[type=submit]:hover
+{
+    background-color: #000000;
+}
+
+input,textarea
+{
+    color: #3d59a8;
+}
+
+input:focus, textarea:focus
+{
+    outline: none;
+}
+
+.captcha
+{
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    textarea
+    {
+        height: 20vw;
+    }
+
+    input[type=text], input[type=email], textarea
+    {
+        font-size: 2vw;
+    }
+
+    input[type=submit]
+    {
+        margin: 2vw 0 1vw;
+        font-size: 3vw;
+    }
+} /* Fin de query */

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio Aurélien VILMINOT | En savoir plus à propos de mon site et bien plus encore...">
+        <meta name="keywords" content="Portfolio, Aurélien, Vilminot, description, iut, informatique, dut, amu, code, html, css, informaticien">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>A propos | Aurélien VILMINOT</title>
+        <link rel="stylesheet" id="style" href="css/about1.css" />
+        <link rel="icon" type="image/png" href="media/favicon.png"/>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="media/logo.png" alt="Logo du site" class="logo"></a>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="projets.html">Projets</a>
+                <a href="avis.php">Avis</a>
+                <a href="about.html">A propos</a>
+            </nav>
+        </header>
+        <main>
+            <section class="date">
+                <div id="time"></div>
+                <div id="hour"></div>
+            </section>
+            <section class="langages_et_titres">
+                <h1 class="titre">Langages utilisés dans mon site</h1>
+                <section class="langages">
+                    <a class="button" href="#popup1"><img src="media/HTML5.png" class="logo_html" alt="Logo html"></a>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>HTML5</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>
+                                    L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web.
+                                    C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et logiquement et
+                                    de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie et des programmes informatiques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="button" href="#popup2"><img src="media/CSS3.png" class="logo_css" alt="Logo CSS"></a>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <h2>CSS3</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>
+                                    Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui
+                                    décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C).
+                                    Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="button" href="#popup3"><img src="media/PHP.png" class="logo_php" alt="Logo PHP"></a>
+                    <div id="popup3" class="overlay">
+                        <div class="popup">
+                            <h2>PHP</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>
+                                    PHP : Hypertext Preprocessor, plus connu sous son sigle PHP (acronyme récursif), est un langage de programmation libre, principalement utilisé pour
+                                    produire des pages Web dynamiques via un serveur HTTP3, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale.
+                                    PHP est un langage impératif orienté objet.
+                                    PHP a permis de créer un grand nombre de sites web célèbres, comme Facebook, Wikipédia, etc. Il est considéré comme une des bases de la création
+                                    de sites web dits dynamiques mais également des applications web.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="button" href="#popup4"><img src="media/java.png" class="logo_java" alt="Logo Javascript"></a>
+                    <div id="popup4" class="overlay">
+                        <div class="popup">
+                            <h2>Javascript</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>
+                                    JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs
+                                    avec l'utilisation (par exemple) de Node.js. C'est un langage orienté objet à prototype, c'est-à-dire que les bases du langage et ses principales
+                                    interfaces sont fournies par des objets qui ne sont pas des instances de classes, mais qui sont chacun équipés de constructeurs permettant de créer
+                                    leurs propriétés, et notamment une propriété de prototypage qui permet d'en créer des objets héritiers personnalisés.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="design">
+                <h1 class="titre2">Changer de design</h1>
+                <button type="button" class="boutton" onclick="changecss(nb=switchcss(nb))">Changez de style</button>
+            </section>
+            <div class="separateur"></div> <!-- Pour le style 2 -->
+            <footer>
+                <p class="sign">Aurélien VILMINOT | 2018 &copy;</p>
+                <img src="media/valid_html.png" class="valid_html" alt="Validation HTML5">
+                <img src="media/valid_css.png" class="valid_css" alt="Validation CSS3">
+            </footer>
+        </main>
+        <script src="js/about.js" type="text/javascript"></script>
+    </body>
+</html>

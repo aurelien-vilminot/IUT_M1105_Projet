@@ -1,0 +1,164 @@
+@import url('global1.css');
+
+.moi
+{
+    position: absolute;
+    top: 12vw;
+    left: 3vw;
+    right: 70vw;
+    border-left: 0.5vw solid #3d59a8;
+    padding-left: 1.5vw;
+    font-size: 1.4vw;
+}
+
+.info
+{
+    position: absolute;
+    top: 26vw;
+    left: 35vw;
+    border-left: 0.5vw solid #3d59a8;
+    padding-left: 1vw;
+    font-size: 1.3vw;
+}
+
+.reseaux
+{
+    position:absolute;
+    top: 38vw;
+    left: 37vw;
+    border-bottom: 0.5vw solid #3d59a8;
+}
+
+.icon
+{
+    width: 3vw;
+}
+
+.map
+{
+    position:absolute;
+    top: 9vw;
+    left: 65vw;
+    border: 0.5vw outset #3d59a8;
+    width: 30vw;
+    height: 65vh;
+}
+
+iframe
+{
+    width: 99.2%;
+    height: 99.3%;
+}
+
+.photo
+{
+    width: 20vw;
+    height: 15vw;
+    position: absolute;
+    top: 9vw;
+    left: 35vw;
+    border: 0.5vw inset #3d59a8;
+}
+
+/* Lien adresse mail */
+.mail:link
+{
+    color: black;
+}
+.mail:visited
+{
+    color: black;
+}
+.mail:hover
+{
+    color: #3d59a8;
+}
+.mail:active
+{
+    color: red;
+}
+
+@media screen and (max-width: 1300px)
+{
+    .map
+    {
+        top: 55vw;
+        left: 3vw;
+        margin-bottom: 5vw;
+        width: 91vw;
+        height: 65vh;
+    }
+    .moi
+    {
+        top: 16.5vw;
+        left: 3vw;
+        right: 50vw;
+        font-size: 1.6vw;
+    }
+
+    .info
+    {
+        top: 38vw;
+        left: 56vw;
+        font-size: 1.5vw;
+    }
+
+    .reseaux
+    {
+        top: 42vw;
+        left: 82vw;
+    }
+
+    .photo
+    {
+        width: 32vw;
+        height: 24vw;
+        top: 12vw;
+        left: 56vw;
+    }
+} /* Fin de query */
+
+@media screen and (max-width: 800px)
+{
+    .map
+    {
+        top: 177vw;
+        left: 3vw;
+        margin-bottom: 5vw;
+    }
+    .moi
+    {
+        top: 35vw;
+        left: 3vw;
+        right: 3vw;
+        font-size: 3vw;
+    }
+
+    .info
+    {
+        top: 147vw;
+        left: 13vw;
+        padding-left: 1.8vw;
+        font-size: 3vw;
+    }
+
+    .reseaux
+    {
+        top: 154vw;
+        left: 68vw;
+    }
+
+    .icon
+    {
+        width: 6vw;
+    }
+
+    .photo
+    {
+        width: 70vw;
+        height: 52vw;
+        top: 89vw;
+        left: 13vw;
+    }
+} /* Fin de query */
+

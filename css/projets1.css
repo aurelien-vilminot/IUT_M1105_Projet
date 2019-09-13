@@ -1,0 +1,326 @@
+@import url('global1.css');
+
+.presentation
+{
+    position: absolute;
+    top: 9vw;
+    margin-left: 25vw;
+    border-left: 0.5vw solid  #3d59a8;
+    padding-left: 1.5vw;
+    font-size: 1.5vw;
+}
+
+.logo_download_tpe
+{
+    height: 10vw;
+    position: absolute;
+    top: 20vw;
+    left: 14vw;
+    transition: 0.4s;
+}
+
+.logo_download_tpe:hover
+{
+    height: 11vw;
+    left: 13.5vw;
+}
+
+.logo_download_ppe
+{
+    height: 10vw;
+    position: absolute;
+    top: 20vw;
+    left: 44.5vw;
+    transition: 0.4s;
+}
+
+.logo_download_ppe:hover
+{
+    height: 11vw;
+    left: 44vw;
+}
+
+.logo_download_isn
+{
+    height: 10vw;
+    position: absolute;
+    top: 20vw;
+    left: 75vw;
+    transition: 0.4s;
+}
+
+.logo_download_isn:hover
+{
+    height: 11vw;
+    left: 74.5vw;
+}
+
+.TPE_titre
+{
+    position: absolute;
+    top: 30vw;
+    left: 11vw;
+    font-size: 1.2vw;
+    font-family: 'NexaPerso', sans-serif;
+    border-bottom: 0.4vw solid #3d59a8;
+}
+
+.TPE_text
+{
+    position: absolute;
+    top: 35vw;
+    left: 9vw;
+    right: 69vw;
+    font-size: 1vw;
+}
+
+.PPE_titre
+{
+    position: absolute;
+    top: 30vw;
+    left: 37.5vw;
+    font-size: 1.2vw;
+    font-family: 'NexaPerso', sans-serif;
+    border-bottom: 0.4vw solid #3d59a8;
+}
+
+.PPE_text
+{
+    position: absolute;
+    top: 35vw;
+    left: 37.5vw;
+    right: 37.5vw;
+    font-size: 1vw;
+}
+
+.ISN_titre
+{
+    position: absolute;
+    top: 30vw;
+    left: 71vw;
+    font-size: 1.2vw;
+    font-family: 'NexaPerso', sans-serif;
+    border-bottom: 0.4vw solid #3d59a8;
+}
+
+.ISN_text
+{
+    position: absolute;
+    top: 35vw;
+    left: 69vw;
+    right: 8vw;
+    font-size: 1vw;
+}
+
+.ancre
+{
+    position: absolute;
+    visibility: hidden;
+    transition: 500ms;
+    margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 1300px)
+{
+    .presentation
+    {
+        top: 14vw;
+        margin-left: 20vw;
+        font-size: 1.8vw;
+    }
+
+    .logo_download_tpe
+    {
+        height: 14vw;
+        top: 25vw;
+        left: 15vw;
+    }
+
+    .logo_download_tpe:hover
+    {
+        height: 15vw;
+        left: 14.5vw;
+    }
+
+    .logo_download_ppe
+    {
+        height: 14vw;
+        top: 25vw;
+        left: 65vw;
+    }
+
+    .logo_download_ppe:hover
+    {
+        height: 15vw;
+        left: 64.5vw;
+    }
+
+    .logo_download_isn
+    {
+        height: 14vw;
+        top: 80vw;
+        left: 40vw;
+    }
+
+    .logo_download_isn:hover
+    {
+        height: 15vw;
+        left: 39.5vw;
+    }
+
+    .TPE_titre
+    {
+        top: 39vw;
+        left: 10vw;
+        font-size: 1.8vw;
+    }
+
+    .TPE_text
+    {
+        top: 46vw;
+        left: 6vw;
+        right: 60vw;
+        font-size: 1.5vw;
+    }
+
+    .PPE_titre
+    {
+        top: 39vw;
+        left: 55vw;
+        right: 7.5vw;
+        font-size: 1.8vw;
+    }
+
+    .PPE_text
+    {
+        top: 46vw;
+        left: 55vw;
+        right: 7vw;
+        font-size: 1.5vw;
+    }
+
+    .ISN_titre
+    {
+        top: 94vw;
+        left: 33vw;
+        font-size: 1.8vw;
+    }
+
+    .ISN_text
+    {
+        top: 100vw;
+        left: 27vw;
+        right: 32vw;
+        font-size: 1.5vw;
+    }
+
+    .ancre
+    {
+        width: 6vw;
+        top: 130vw;
+        left: 92vw;
+        visibility: visible;
+    }
+} /* Fin de query */
+
+@media screen and (max-width: 800px)
+{
+    .presentation
+    {
+        top: 35vw;
+        margin-left: 3vw;
+        font-size: 4.2vw;
+    }
+
+    .logo_download_tpe
+    {
+        height: 17vw;
+        top: 60vw;
+        left: 40vw;
+    }
+
+    .logo_download_tpe:hover
+    {
+        height: 18vw;
+        left: 39.5vw;
+    }
+
+    .logo_download_ppe
+    {
+        height: 17vw;
+        top: 154vw;
+        left: 40vw;
+    }
+
+    .logo_download_ppe:hover
+    {
+        height: 18vw;
+        left: 39.5vw;
+    }
+
+    .logo_download_isn
+    {
+        height: 17vw;
+        top: 254vw;
+        left: 40vw;
+    }
+
+    .logo_download_isn:hover
+    {
+        height: 18vw;
+        left: 39.5vw;
+    }
+
+    .TPE_titre
+    {
+        top: 76vw;
+        left: 24vw;
+        font-size: 4vw;
+    }
+
+    .TPE_text
+    {
+        top: 91vw;
+        left: 12vw;
+        right: 12vw;
+        font-size: 3vw;
+    }
+
+    .PPE_titre
+    {
+        top: 170vw;
+        left: 10vw;
+        font-size: 4vw;
+    }
+
+    .PPE_text
+    {
+        top: 186vw;
+        left: 12vw;
+        right: 12vw;
+        font-size: 3vw;
+    }
+
+    .ISN_titre
+    {
+        top: 270vw;
+        left: 19vw;
+        font-size: 4vw;
+    }
+
+    .ISN_text
+    {
+        top: 286vw;
+        left: 12vw;
+        right: 12vw;
+        font-size: 3vw;
+    }
+
+    .ancre
+    {
+        width: 11vw;
+        top: 336vw;
+        left: 85vw;
+        visibility: visible;
+    }
+} /* Fin de query */
