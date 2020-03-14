@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 
@@ -24,4 +23,3 @@ if(isset($_POST['captcha']))
       echo "Captcha invalide...";
    }
 }
-?>
