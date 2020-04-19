@@ -1,4 +1,4 @@
-# IUT M1105 | 1re année | Portfolio
+# IUT M1105 | 1<sup>re</sup> année | Portfolio
 Projet Web - Site vitrine développé en 1re année ayant pour but de se présenter et de s'initier au développement Web
 
 ## Code
